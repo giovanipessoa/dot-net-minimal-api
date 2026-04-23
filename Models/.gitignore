@@ -1,0 +1,25 @@
+﻿## --- IDE & Tooling ---
+.vs/
+.vscode/
+*.user
+*.userosscache
+*.sln.docstates
+
+## --- Build Artifacts ---
+bin/
+obj/
+publish/
+
+## --- Sensitive Data (RDS Credentials) ---
+# Do not commit your RDS password to GitHub!
+appsettings.json
+# You can keep a template file like this:
+!appsettings.Example.json
+
+## --- Operating System Files ---
+.DS_Store
+Thumbs.db
+
+## --- EF Core & Local DB ---
+*.db
+*.db-journal
